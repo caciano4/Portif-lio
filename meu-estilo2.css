@@ -1,0 +1,151 @@
+/* media screen */
+@media (max-width:1070px){
+    .home .max-width{
+        margin-left:0px;
+        padding: 0 10px;
+
+    }
+    .navbar .menu.active{
+        left:0;
+        transition: 0.9s ease;
+
+    }
+    
+    .navbar .menu li{
+        background-color:#000;
+        display: block;
+       
+       
+        
+    }
+    .navbar .menu li a{
+        font-size:20px;
+        margin-top:18px; 
+        -webkit-text-stroke: 1px crimson;
+        padding:20px 0; 
+        display:inline-block;
+    }
+    .navbar .logo{
+        margin:auto;
+    }
+    .navbar .menu{
+        
+        text-align: center;
+        position: fixed;
+        left:100%;
+        top:0;
+        width:100%;
+        height:100vh;
+        display: inline-block;
+
+}
+.navbar .menu-btn{
+    display:block;
+    position: absolute;
+    right:30px;
+    top:30px;
+
+}
+.home .home-content .text1{ margin-left: 90px;}
+.home .home-content .text2{margin-left: 90px;}
+.home .home-content .text3{margin-left: 90px;}
+}
+@media(min-width:1071){
+    .navbar .menu{
+        display: block;
+    }
+    
+}
+@media (max-width:800px){
+    .max-width{
+        padding: 0 10px;
+
+    }
+    .home{
+        background: none #111;
+    }
+    .navbar .logo {
+        margin:auto;
+        transition: 1s ease;
+
+    }
+    .home .home-content .text1
+    {
+        font-size:30px;
+        margin-top:100px;
+        margin-left:190px;
+    
+    }
+    .home .home-content .text2
+    {
+        font-size:50px;
+        font-weight:600;
+        padding-top: 10px;
+        margin-left:190px;
+        
+    }
+    .home .home-content .text3
+    {
+        font-size:40px;
+        margin-left:190px;
+        position: relative;
+        bottom:20px;
+
+    }
+    .navbar .menu li{
+        background-color:#000;
+        display: block;
+        
+       
+        
+    }
+    .navbar .menu li a{
+        font-size:20px;
+        margin:18px; 
+        -webkit-text-stroke: 1px crimson;
+        padding: 20px 0px;
+        display:inline-block;
+    }
+    .navbar .menu-btn{
+        display: block;
+        z-index: 999;
+        position:absolute;
+        right: 30px;
+        top: 30px;
+    }
+    .navbar .menu{
+        padding-top:70px ;
+        text-align: center;
+        position: fixed;
+        left:-100%;
+        top:0;
+        width:100%;
+        height:100vh;
+        display: inline-block;
+        
+    }
+    .navbar .menu.active{
+        left: 0;
+        transition: all 0.9s ease;
+    }
+    .navbar.sticky
+
+    {
+    padding:35px 0;
+    background:crimson;
+    transition: 0.9s ease;}
+}
+
+@media (max-width:650px){
+    .home .home-content .text1{
+    margin:auto;padding:10px;}
+
+    .home .home-content .text2{
+    margin:auto;padding: 10px;}
+
+    .home .home-content .text3{
+    margin:auto;padding: 10px }
+    .home .home-content .text3 .sou{
+        display:none;
+    }
+}

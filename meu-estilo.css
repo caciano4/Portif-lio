@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*
+{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+.folio
+{
+    color:crimson;
+    -webkit-text-stroke:1px#fff;
+
+}
+.folio:hover
+{
+    -webkit-text-stroke:0.1px crimson;
+    color:#fff;
+    transition: color 0.9s ease;
+}
+.navbar .menu li a:hover
+{
+    color:crimson;
+    transition: color 0.5s ease;
+}
+
+.navbar
+{
+    padding:15px 0px;
+    position: fixed;
+    width:100%;
+    font-family: 'Petit Formal Script', cursive;
+    font-family:"lucida console",monaco,ubuntu,sans-serif;
+    
+}
+/* estilizando o menu-btn */
+.menu-btn
+{
+    color: #fff;
+    font-size: 23px;
+    cursor:pointer;
+    display: none;
+}
+.menu-btn .i.active:before
+{ 
+    content: "\f00d";
+}
+.navbar.sticky
+
+{
+    padding:25px 0;
+    background:crimson;
+    transition: 0.9s ease;
+}
+.navbar.sticky .logo a span
+{
+color:#fff;
+transition: all 0.9s ease;
+
+}
+
+/*editando os link's*/
+.navbar .menu li a
+{
+    
+    color:#fff;
+    display:inline-block;
+    padding:0px 10px;
+}
+.navbar.sticky .menu li a
+{
+    color: #fff;
+
+}
+
+/*editando a lista*/
+.navbar .menu li
+{
+   
+    display:inline-block;
+}
+
+/*editando a logo*/
+.navbar .logo a
+{
+ font-weight:700;
+ font-size:35px;
+ color:#fff;
+
+}
+.navbar .logo a:hover
+{  
+    transition: color 0.5s ease;
+    color:crimson;
+}
+/*responsividade*/
+.navbar .max-width
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+}
+.max-width
+{
+    padding:0px 80px;
+    margin:auto;
+    max-width: 1300px;
+    
+}
+ /*estilizando o corpo */
+ .home
+ {
+     display:flex;
+     background: #111 url('../img/wa.jpg') no-repeat center;
+     height:95vh;
+     color:#fff;
+     min-height:500px;
+     font-family:"lucida console",monaco,ubuntu,sans-serif;
+     
+}
+.home .max-width
+{
+    margin:auto 0px auto 40px;
+
+}
+
+.home .home-content .text1
+{
+    font-size:30px;
+    margin-bottom:9px;
+
+}
+.home .home-content .text2
+{
+    font-size:65px;
+    font-weight:600;
+    padding-top: 15px;
+}
+.home .home-content .text3
+{
+    font-size:45px;
+   
+}
+.home .home-content .text3 span
+{
+    -webkit-text-stroke:0.2px #fff;
+    color:crimson;
+    font-size:55px;
+    font-weight:500;
+    font-family: 'Pacifico', cursive;
+    text-decoration: underline crimson;
+}
+.home .home-content .text3 span:hover
+{
+    color:#fff;
+    transition: 0.9s ease;
+}
