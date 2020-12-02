@@ -1,2 +1,3 @@
 # Portif-lio
-fazendo algumas brincadeiras com css para aprender!
+criando um portifolio para testar meus conhecimentos
+
